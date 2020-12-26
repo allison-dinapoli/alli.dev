@@ -1,0 +1,7 @@
+/* autoprefixer grid: autoplace */
+#background {
+  background-color: #e6cfd4;
+  width: 99%;
+  height: 98%;
+  margin: auto;
+}

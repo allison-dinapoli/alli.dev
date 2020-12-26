@@ -1,0 +1,33 @@
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    height: fit-content;
+    font-family: 'Cutive Mono', monospace;
+    animation: typing 3.5s steps(27, end), blink-caret .75s step-end infinite;
+  }
+  
+  .typewriterContainer {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent
+    }
+    50% {
+      border-color: black;
+    }
+  }
